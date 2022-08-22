@@ -1,3 +1,53 @@
 body {
- background-color: rgb(57, 0, 65);
+ background-color: rgb(44, 1, 49);
+}
+
+.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 60px;
+    margin-left: -20px;
+    margin-top: -17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+}
+
+.contact {
+    float: right;
+    margin-right: -30px;
+}
+
+li a:hover {
+    color: rgb(0, 255, 157);
+}
+
+
+.show {
+    font-size: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    border: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
