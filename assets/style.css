@@ -2,7 +2,7 @@ body {
  background-color: rgb(44, 1, 49);
 }
 
-.bar {
+nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,7 +15,8 @@ li {
 }
 
 li a {
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
     color: white;
     text-align: center;
     padding: 5px 5px 5px 5px;
@@ -39,7 +40,7 @@ li a:hover {
 }
 
 
-.show {
+h1 {
     font-size: 50px;
     color: white;
     display: flex;
@@ -47,7 +48,69 @@ li a:hover {
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    border: 0px;
-    padding: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
+
+h2 {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 20px 10px 10px 20px;
+    padding: 20px;
+    margin: 80px 10px 10px 0px;
+}
+    
+
+@media (max-width: 668px) {
+    nav li a {
+        font-size: 15px;
+        margin: 15px;
+        margin-left: -10px;
+    }
+    
+    .contact {
+        margin-right: 20px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+
+    img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
