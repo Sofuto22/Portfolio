@@ -113,8 +113,18 @@ h4 {
     font-size: 30px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 0px;
+    
+}
+.grids {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 15px solid rgb(0, 255, 157);
+    margin: 20px 0px 0px 0px;
+    padding: 40px;
+    width: 100%;
+
 
 }
     
