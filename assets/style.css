@@ -1,5 +1,6 @@
 *{
  background-color: rgb(44, 1, 49);
+ font-family: 'Times New Roman', Times, serif;
 }
 
 body {
@@ -37,7 +38,6 @@ li a {
     margin-right: 60px;
     margin-left: -20px;
     margin-top: -17px;
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     width: 100%;
 
@@ -53,27 +53,22 @@ li a:hover {
 }
 
 
-h1 {
-    font-size: 50px;
+.headers {
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 50px;
 }
 
 h2 {
     font-size: 30px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-    margin-top: -10px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-top: -10px;  
 }
 
 .Profile {
@@ -90,14 +85,12 @@ h2 {
 h3 {
     font-size: 30px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     border: 20px 10px 10px 20px;
     margin: 5px 10px 10px 0px;
 }
 
 p {
     font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -112,7 +105,6 @@ p {
 h4 {
     font-size: 50px;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     
 }
@@ -175,7 +167,7 @@ h5 {
 }
     
 
-@media (max-width: 720px) {
+@media screen and (max-width: 720px) {
     nav li a {
         font-size: 15px;
         display: flex;
@@ -205,6 +197,7 @@ h5 {
 
     .boxes {
         border: none;
+        margin-right: -400px;
     }
 
     p {
@@ -220,7 +213,12 @@ h5 {
         border: none;
         display: flex;
         flex-wrap: wrap;
-       flex-direction: column;
+        flex-direction: column;
+    }
+
+    h4 {
+        font-size: 30px;
+        text-align: left;
     }
     
     #bigbig{
@@ -229,8 +227,17 @@ h5 {
     }
     
     .projects {
+        display: flex;
+        flex-direction: column;
         width:100px;
         height:100px;
+    }
+
+    .Contact {
+        border: none;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
     }
 }
 
