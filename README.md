@@ -13,8 +13,7 @@ N/A
 ## Usage
 
 ![Screenshot](assets/images/screenshot.png)
-<<<<<<< HEAD
-[Link to my Profile]()
+[Link to my Portfolio](https://sofuto22.github.io/Portfolio)
 
 
 ## Credits
