@@ -106,6 +106,8 @@ h4 {
     font-size: 50px;
     color: white;
     text-align: center;
+    margin-top: -12px;
+    margin-left: -33px;
     
 }
 
@@ -121,15 +123,15 @@ h4 {
 }
 
 #bigbig {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
 }
 
 .projects {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     padding: 1px;
-    margin: 40px;
+    margin:10px;
 }
 
 .projects:hover {
@@ -154,7 +156,7 @@ h5 {
     color: white;
     font-size: 25px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 .email {
